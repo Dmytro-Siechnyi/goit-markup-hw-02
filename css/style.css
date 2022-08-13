@@ -21,16 +21,20 @@
 .list {
     list-style: none;
 }
+
 /* Header */
 .page-header {
     background-color: #ffffff;
 }
+
+/* Логотип */
 .logo {
     color: var(--accent-color);
 }
 .logo-web {
     color: #000000;
 }
+
 /* Site nav */
 .site-nav .link {
     color: var(--title-text-color);
@@ -46,6 +50,8 @@ color: var(--accent-color);
 .site-nav .link-stage:focus {
 color: var(--title-text-color);
 }
+
+/* Авторизація */
 .auth-nav .link-mail {
     color: var(--accent-color);
 }
@@ -65,6 +71,7 @@ color: var(--title-text-color);
 .page-main {
     background-color: var(--background-color-page);
 }
+/* Блок герой */
 .hero {
     background-color: #2F303A;
     color: #ffffff;
@@ -77,6 +84,7 @@ color: #ffffff;
 .hero-button:focus {
     background-color: #188CE8;
 }
+/* Особливості */
 
 /* Footer */
 .page-footer {
