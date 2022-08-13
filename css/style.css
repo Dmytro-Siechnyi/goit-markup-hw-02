@@ -62,10 +62,25 @@ color: var(--title-text-color);
 }
 
 /* Main */
+.page-main {
+    background-color: var(--background-color-page);
+}
+.hero {
+    background-color: #2F303A;
+    color: #ffffff;
+}
+.hero-button {
+background-color: var(--accent-color);
+color: #ffffff;
+}
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #188CE8;
+}
 
 /* Footer */
 .page-footer {
-    background-color: #2F303A;
+    background-color: #2F303A; 
 }
 .logo-web-footer {
     color: #ffffff;
