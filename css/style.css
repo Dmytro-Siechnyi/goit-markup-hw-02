@@ -24,6 +24,7 @@
 /* Header */
 .page-header {
     background-color: #ffffff;
+    color: var(--title-text-color);
 }
 .logo {
     color: var(--accent-color);  
