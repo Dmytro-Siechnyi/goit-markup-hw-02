@@ -21,3 +21,58 @@
 .list {
     list-style: none;
 }
+/* Header */
+.logo {
+    color: var(--accent-color);  
+}
+.logo-web {
+    color: #000000;
+}
+/* Site nav */
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+color: var(--accent-color);
+}
+.site-nav .link-stage {
+    color: var(--accent-color);
+}
+.site-nav .link-stage:hover,
+.site-nav .link-stage:focus {
+color: var(--title-text-color);
+}
+.auth-nav .link-mail {
+    color: var(--accent-color);
+}
+.auth-nav .link-mail:hover,
+.auth-nav .link-mail:focus {
+color: var(--title-text-color);
+}
+.site-nav .link-tel {
+    color: var(--primary-text-color);
+}
+.auth-nav .link-tel:hover,
+.auth-nav .link-tel:focus {
+    color: var(--accent-color);
+}
+
+/* Main */
+
+/* Footer */
+.page-footer {
+    background-color: #2F303A;
+}
+.logo-web-footer {
+    color: #ffffff;
+}
+.address .link-address {
+    color: #ffffff;
+}
+.address .link-mail {
+    color: #ffffff;
+}
+.address .link-tel {
+    color: #ffffff;
+}
