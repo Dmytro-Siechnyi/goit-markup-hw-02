@@ -27,7 +27,7 @@
     background-color: #ffffff;
 }
 
-/* Логотип */
+/* Логотип header*/
 .logo {
     color: var(--accent-color);
 }
@@ -90,9 +90,12 @@ color: #ffffff;
 .page-footer {
     background-color: #2F303A; 
 }
+
+/* Логотип Footer */
 .logo-web-footer {
     color: #ffffff;
 }
+/* Адреса Footer */
 .address .link-address {
     color: #ffffff;
 }
