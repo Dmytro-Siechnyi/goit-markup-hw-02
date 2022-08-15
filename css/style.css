@@ -59,7 +59,7 @@ color: var(--title-text-color);
 .auth-nav .link-mail:focus {
 color: var(--title-text-color);
 }
-.site-nav .link-tel {
+.auth-nav .link-tel {
     color: var(--primary-text-color);
 }
 .auth-nav .link-tel:hover,
@@ -122,6 +122,22 @@ color: var(--title-text-color);
 .address .link-tel {
     color: rgb(255, 255, 255, 0.6)
 } 
+.auth-nav .link-mail {
+    color: var(--accent-color);
+}
+
+.address .link-mail:hover,
+.address .link-mail:focus {
+    color: var(--accent-color);
+}
+.address .link-tel:hover,
+.address .link-tel:focus {
+    color: var(--accent-color);
+}
+.address .link-address:hover,
+.address .link-address:focus {
+    color: var(--accent-color);
+}
 /* ---------ПОРТФОЛІО--------- */
 /* Кнопки */
 .filter-button {
