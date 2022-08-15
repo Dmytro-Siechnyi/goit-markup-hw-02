@@ -100,8 +100,8 @@ color: #ffffff;
     color: #ffffff;
 }
 .address .link-mail {
-    color: #ffffff;
+    color: rgb(255, 255, 255, 0.6)
 }
 .address .link-tel {
-    color: #ffffff;
-}
+    color: rgb(255, 255, 255, 0.6)
+} 
