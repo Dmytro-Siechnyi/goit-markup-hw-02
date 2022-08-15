@@ -12,7 +12,7 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --background-color-page: #F5F5F5;
-
+    --secondary-background-color-pag: #F5F4FA
 }
 .body {
     background-color: var(--background-color-page);
@@ -85,12 +85,29 @@ color: #ffffff;
     background-color: #188CE8;
 }
 /* Особливості */
-
+.Features .title {
+color: var(--title-text-color);
+}
+.Features .text {
+    color: var(--primary-text-color);
+}
+/* Чим ми займаємося */
+.work .title {
+    color: var(--title-text-color);
+}
+/* Наша команда */
+.team,
+.title, .title-team {
+    background-color: var(--secondary-background-color-pag);
+    color: var(--title-text-color);
+}
+.team .text {
+    color: var(--primary-text-color);
+}
 /* Footer */
 .page-footer {
     background-color: #2F303A; 
 }
-
 /* Логотип Footer */
 .logo-web-footer {
     color: #ffffff;
@@ -105,3 +122,18 @@ color: #ffffff;
 .address .link-tel {
     color: rgb(255, 255, 255, 0.6)
 } 
+/* ---------ПОРТФОЛІО--------- */
+/* Кнопки */
+.filter-button {
+    color: var(--title-text-color);
+    background-color: var(--secondary-background-color-pag);
+}
+.filter-button:hover,
+.filter-button:focus {
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
+/* Перелік робіт */
+.filter .title-filter {
+    color: var(--title-text-color);
+}
