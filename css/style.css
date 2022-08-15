@@ -43,11 +43,11 @@
 .site-nav .link:focus {
 color: var(--accent-color);
 }
-.site-nav .link-stage {
+.site-nav .link-current {
     color: var(--accent-color);
 }
-.site-nav .link-stage:hover,
-.site-nav .link-stage:focus {
+.site-nav .link-current:hover,
+.site-nav .link-current:focus {
 color: var(--title-text-color);
 }
 
