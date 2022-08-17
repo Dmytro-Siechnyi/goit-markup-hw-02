@@ -150,12 +150,8 @@ color: var(--title-text-color);
     color: #ffffff;
     background-color: var(--accent-color);
     cursor: pointer;
-
 }
-/* Перелік робіт */
-.projects {
-    background-color: var(--background-color-page);
-}
+/* Проекти */
 .projects-title {
 color: var(--title-text-color);
 }
