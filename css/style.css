@@ -36,11 +36,11 @@
 }
 
 /* Site nav */
-.site-nav .link {
+.nav-link {
     color: var(--title-text-color);
 }
-.site-nav .link:hover, 
-.site-nav .link:focus {
+.site-nav .nav-link:hover, 
+.site-nav .nav-link:focus {
 color: var(--accent-color);
 }
 .site-nav .link-current {
@@ -52,18 +52,18 @@ color: var(--title-text-color);
 }
 
 /* Авторизація */
-.auth-nav .link-mail {
+.auth-link-mail {
     color: var(--accent-color);
 }
-.auth-nav .link-mail:hover,
-.auth-nav .link-mail:focus {
+.auth-link-mail:hover,
+.auth-link-mail:focus {
 color: var(--title-text-color);
 }
-.auth-nav .link-tel {
+.auth-link-tel {
     color: var(--primary-text-color);
 }
-.auth-nav .link-tel:hover,
-.auth-nav .link-tel:focus {
+.auth-link-tel:hover,
+.auth-link-tel:focus {
     color: var(--accent-color);
 }
 
@@ -83,25 +83,30 @@ color: #ffffff;
 .hero-button:hover,
 .hero-button:focus {
     background-color: #188CE8;
+    cursor: pointer;
 }
 /* Особливості */
-.Features .title {
+.features-title {
 color: var(--title-text-color);
 }
-.Features .text {
+.features-text {
     color: var(--primary-text-color);
 }
 /* Чим ми займаємося */
-.work .title {
+.work-title {
     color: var(--title-text-color);
 }
 /* Наша команда */
-.team,
-.title, .title-team {
-    background-color: var(--secondary-background-color-pag);
-    color: var(--title-text-color);
+.team {
+background-color: var(--secondary-background-color-pag);
 }
-.team .text {
+.team-title {
+color: var(--title-text-color);
+}
+.team-name {
+color: var(--title-text-color);
+}
+.team-text {
     color: var(--primary-text-color);
 }
 /* Footer */
@@ -113,29 +118,25 @@ color: var(--title-text-color);
     color: #ffffff;
 }
 /* Адреса Footer */
-.address .link-address {
+.footer-link-address {
     color: #ffffff;
 }
-.address .link-mail {
-    color: rgb(255, 255, 255, 0.6)
+.footer-link-mail {
+    color: rgba(255, 255, 255, 0.6)
 }
-.address .link-tel {
-    color: rgb(255, 255, 255, 0.6)
+.footer-link-tel {
+    color: rgba(255, 255, 255, 0.6)
 } 
-.auth-nav .link-mail {
+.footer-link-mail:hover,
+.footer-link-mail:focus {
     color: var(--accent-color);
 }
-
-.address .link-mail:hover,
-.address .link-mail:focus {
+.footer-link-tel:hover,
+.footer-link-tel:focus {
     color: var(--accent-color);
 }
-.address .link-tel:hover,
-.address .link-tel:focus {
-    color: var(--accent-color);
-}
-.address .link-address:hover,
-.address .link-address:focus {
+.footer-link-address:hover,
+.footer-link-address:focus {
     color: var(--accent-color);
 }
 /* ---------ПОРТФОЛІО--------- */
@@ -148,8 +149,16 @@ color: var(--title-text-color);
 .filter-button:focus {
     color: #ffffff;
     background-color: var(--accent-color);
+    cursor: pointer;
+
 }
 /* Перелік робіт */
-.filter .title-filter {
-    color: var(--title-text-color);
+.projects {
+    background-color: var(--background-color-page);
+}
+.projects-title {
+color: var(--title-text-color);
+}
+.projects-text {
+color: var(--primary-text-color);
 }
