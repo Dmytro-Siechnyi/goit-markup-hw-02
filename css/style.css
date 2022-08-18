@@ -1,18 +1,33 @@
 /* 
 Цвет основного текста #757575;
 Вторичный цвет текста #212121;
+Цвет логотипа футера #000000;
+Цвет текста кнопок #ffffff;
+Цвет текста футера #ffffff;
+Акцент цвета текста футера rgba(255, 255, 255, 0.6);
 Акцент #2196F3;
 Основной цвет фона #F5F5F5;
 Вторичный цвет фона #F5F4FA;
+Цвет фона хедера #ffffff;
+Цвет фона герой #2F303A;
+Цвет активации кнопки #188CE8;
 Цвет фона футера #2F303A; 
 */
 
 :root {
     --primary-text-color: #757575;
     --title-text-color: #212121;
+    --logo-text-color: #000000;
+    --button-text-color: #ffffff;
+    --footer-text-color: #ffffff;
+    --accent-color-text-footer: rgba(255, 255, 255, 0.6);
     --accent-color: #2196F3;
     --background-color-page: #F5F5F5;
-    --secondary-background-color-pag: #F5F4FA
+    --secondary-background-color-pag: #F5F4FA;
+    --background-color-header: #ffffff;
+    --booton-activ-color: #188CE8;
+    --background-color-footer: #2F303A;
+
 }
 .body {
     background-color: var(--background-color-page);
@@ -24,7 +39,7 @@
 
 /* Header */
 .page-header {
-    background-color: #ffffff;
+    background-color: var(--background-color-header);
 }
 
 /* Логотип header*/
@@ -32,7 +47,7 @@
     color: var(--accent-color);
 }
 .logo-web {
-    color: #000000;
+    color: var(--logo-text-color);
 }
 
 /* Site nav */
@@ -73,16 +88,16 @@ color: var(--title-text-color);
 }
 /* Блок герой */
 .hero {
-    background-color: #2F303A;
-    color: #ffffff;
+    background-color: var(--background-color-footer);
+    color: var(--button-text-color);
 }
 .hero-button {
 background-color: var(--accent-color);
-color: #ffffff;
+color: var(--button-text-color);
 }
 .hero-button:hover,
 .hero-button:focus {
-    background-color: #188CE8;
+    background-color: var(--booton-activ-color);
     cursor: pointer;
 }
 /* Особливості */
@@ -111,21 +126,21 @@ color: var(--title-text-color);
 }
 /* Footer */
 .page-footer {
-    background-color: #2F303A; 
+    background-color: var(--background-color-footer) 
 }
 /* Логотип Footer */
 .logo-web-footer {
-    color: #ffffff;
+    color: var(--footer-text-color);
 }
 /* Адреса Footer */
 .footer-link-address {
-    color: #ffffff;
+    color: var(--footer-text-color);
 }
 .footer-link-mail {
-    color: rgba(255, 255, 255, 0.6)
+    color: var(--accent-color-text-footer)
 }
 .footer-link-tel {
-    color: rgba(255, 255, 255, 0.6)
+    color: var(--accent-color-text-footer)
 } 
 .footer-link-mail:hover,
 .footer-link-mail:focus {
@@ -147,7 +162,7 @@ color: var(--title-text-color);
 }
 .filter-button:hover,
 .filter-button:focus {
-    color: #ffffff;
+    color: var(--button-text-color);
     background-color: var(--accent-color);
     cursor: pointer;
 }
