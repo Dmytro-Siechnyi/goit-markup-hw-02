@@ -15,19 +15,20 @@
 */
 
 :root {
+    /* текст */
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --logo-text-color: #000000;
     --button-text-color: #ffffff;
     --footer-text-color: #ffffff;
     --accent-color-text-footer: rgba(255, 255, 255, 0.6);
+     /* фон */
     --accent-color: #2196F3;
     --background-color-page: #F5F5F5;
     --secondary-background-color-pag: #F5F4FA;
     --background-color-header: #ffffff;
     --booton-activ-color: #188CE8;
     --background-color-footer: #2F303A;
-
 }
 .body {
     background-color: var(--background-color-page);
