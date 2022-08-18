@@ -79,7 +79,6 @@
     line-height: 100%;
     text-align: Left;
     vertical-align: Top;
-    
 }
 .site-nav .nav-link:hover, 
 .site-nav .nav-link:focus {
@@ -108,7 +107,6 @@ color: var(--title-text-color);
     line-height: 100%;
     text-align: Left;
     vertical-align: Top;
-    
 }
 .auth-link-mail:hover,
 .auth-link-mail:focus {
@@ -236,7 +234,6 @@ vertical-align: top
     line-height: 100%;
     text-align: Left;
     vertical-align: Top;
-
 }
 /* Адреса Footer */
 .address {
