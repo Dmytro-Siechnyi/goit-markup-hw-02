@@ -300,6 +300,9 @@ vertical-align: top;
     cursor: pointer;
 }
 /* Проекти */
+.projects-link {
+text-decoration: none;
+}
 .projects-title {
 color: var(--title-text-color);
 
