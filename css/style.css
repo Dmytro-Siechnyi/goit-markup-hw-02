@@ -58,7 +58,6 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    line-height: 100%;
     text-align: Left;
     vertical-align: Top;
 }
@@ -70,7 +69,6 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    line-height: 100%;
     text-align: Left;
     vertical-align: Top;
 }
@@ -82,7 +80,6 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    line-height: 100%;
     text-align: Left;
     vertical-align: Top;
 }
@@ -96,7 +93,6 @@ color: var(--accent-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    line-height: 100%;
     text-align: Left;
     vertical-align: Top;
 }
@@ -112,7 +108,6 @@ color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    line-height: 100%;
     text-align: Left;
     vertical-align: Top;
 }
@@ -126,7 +121,6 @@ color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    line-height: 100%;
     text-align: Left;
     vertical-align: Top;
 }
@@ -148,7 +142,6 @@ color: var(--title-text-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    line-height: 116%;
     text-align: center;
     vertical-align: Top;
 }
@@ -161,7 +154,6 @@ letter-spacing: 0.06em;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
-line-height: 160%;
 text-align: center;
 vertical-align: center;
 }
@@ -177,7 +169,6 @@ color: var(--title-text-color);
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
-line-height: 100%;
 text-align: left;
 vertical-align: top;
 }
@@ -187,7 +178,6 @@ color: var(--primary-text-color);
 font-weight: 400;
 font-size: 14px;
 line-height: 1.17;
-line-height: 146%;
 text-align: left;
 vertical-align: top
 }
@@ -198,7 +188,6 @@ color: var(--title-text-color);
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
-line-height: 100%;
 text-align: center;
 vertical-align: top
 }
@@ -212,7 +201,6 @@ color: var(--title-text-color);
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
-line-height: 100%;
 text-align: center;
 vertical-align: top
 }
@@ -222,7 +210,6 @@ color: var(--title-text-color);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
-line-height: 100%;
 text-align: center;
 vertical-align: top
 }
@@ -232,7 +219,6 @@ color: var(--primary-text-color);
 font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
-line-height: 100%;
 text-align: center;
 vertical-align: top
 }
@@ -249,7 +235,6 @@ vertical-align: top
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    line-height: 100%;
     text-align: Left;
     vertical-align: Top;
 }
@@ -260,7 +245,6 @@ vertical-align: top
     font-weight: 400;
     font-size: 14px;
     line-height: 1.19;
-    line-height: 146%;
     text-align: Left;
     vertical-align: Top; 
 }
@@ -296,7 +280,6 @@ letter-spacing: 0.03em;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
-line-height: 139%;
 text-align: center;
 vertical-align: top;
 }
@@ -314,7 +297,6 @@ letter-spacing: 0.06em;
 font-weight: 700;
 font-size: 18px;
 line-height: 2.0;
-line-height: 171%;
 text-align: left;
 vertical-align: top;
 }
@@ -324,7 +306,6 @@ color: var(--primary-text-color);
 font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
-line-height: 160%;
 text-align: left;
 vertical-align: top;
 }
