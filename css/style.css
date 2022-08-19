@@ -60,6 +60,7 @@
     line-height: 1.19;
     text-align: Left;
     vertical-align: Top;
+    text-decoration: none;
 }
 .logo-web {
     color: var(--logo-text-color);
@@ -71,6 +72,7 @@
     line-height: 1.19;
     text-align: Left;
     vertical-align: Top;
+    text-decoration: none;
 }
 
 /* Site nav */
@@ -82,6 +84,7 @@
     line-height: 1.14;
     text-align: Left;
     vertical-align: Top;
+    text-decoration: none;
 }
 .site-nav .nav-link:hover, 
 .site-nav .nav-link:focus {
@@ -95,6 +98,7 @@ color: var(--accent-color);
     line-height: 1.14;
     text-align: Left;
     vertical-align: Top;
+    text-decoration: none;
 }
 .site-nav .link-current:hover,
 .site-nav .link-current:focus {
@@ -110,6 +114,7 @@ color: var(--title-text-color);
     line-height: 1.14;
     text-align: Left;
     vertical-align: Top;
+    text-decoration: none;
 }
 .auth-link-mail:hover,
 .auth-link-mail:focus {
@@ -123,6 +128,7 @@ color: var(--title-text-color);
     line-height: 1.14;
     text-align: Left;
     vertical-align: Top;
+    text-decoration: none;
 }
 .auth-link-tel:hover,
 .auth-link-tel:focus {
@@ -179,7 +185,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.17;
 text-align: left;
-vertical-align: top
+vertical-align: top;
 }
 /* Чим ми займаємося */
 .work-title {
@@ -189,7 +195,7 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 text-align: center;
-vertical-align: top
+vertical-align: top;
 }
 /* Наша команда */
 .team {
@@ -202,7 +208,7 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 text-align: center;
-vertical-align: top
+vertical-align: top;
 }
 .team-name {
 color: var(--title-text-color);
@@ -211,7 +217,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
-vertical-align: top
+vertical-align: top;
 }
 .team-text {
 color: var(--primary-text-color);
@@ -220,11 +226,11 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
-vertical-align: top
+vertical-align: top;
 }
 /* Footer */
 .page-footer {
-    background-color: var(--background-color-footer) 
+    background-color: var(--background-color-footer); 
 }
 /* Логотип Footer */
 .logo-web-footer {
@@ -237,6 +243,7 @@ vertical-align: top
     line-height: 1.19;
     text-align: Left;
     vertical-align: Top;
+    text-decoration: none;
 }
 /* Адреса Footer */
 .address {
@@ -250,12 +257,15 @@ vertical-align: top
 }
 .footer-link-address {
     color: var(--footer-text-color);
+    text-decoration: none;
 }
 .footer-link-mail {
-    color: var(--accent-color-text-footer)
+    color: var(--accent-color-text-footer);
+    text-decoration: none;
 }
 .footer-link-tel {
-    color: var(--accent-color-text-footer)
+    color: var(--accent-color-text-footer);
+    text-decoration: none;
 } 
 .footer-link-mail:hover,
 .footer-link-mail:focus {
