@@ -150,6 +150,7 @@ color: var(--title-text-color);
     line-height: 1.36;
     text-align: center;
     vertical-align: Top;
+    text-transform: uppercase;
 }
 .hero-button {
 background-color: var(--accent-color);
@@ -177,6 +178,7 @@ font-size: 14px;
 line-height: 1.14;
 text-align: left;
 vertical-align: top;
+text-transform: uppercase;
 }
 .features-text {
 color: var(--primary-text-color);
