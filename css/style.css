@@ -173,6 +173,7 @@ letter-spacing: 0.03em;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
+text-align: center;
 }
 /* Наша команда */
 .team {
@@ -185,6 +186,7 @@ letter-spacing: 0.03em;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
+text-align: center;
 }
 .team-name {
 color: var(--title-text-color);
